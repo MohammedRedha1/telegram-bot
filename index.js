@@ -1,5 +1,5 @@
 const TelegramBot = require("node-telegram-bot-api");
-const token = "7163227505:AAGWZVivhFT0lPsh2thX2icUXYBcw9Lag_E";
+const token = "hidden";
 const bot = new TelegramBot(token, { polling: true });
 function createKeyboardMarkup() {
     return {
