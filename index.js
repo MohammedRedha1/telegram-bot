@@ -47,7 +47,7 @@ bot.onText(/\/([^ ]+)/, (msg, match) => {
     }
 });
 
-// Set up the listener for the hamburger menu command
+// Set up the btns' functionality
 bot.onText(/Show scripts/, (msg) => {
     const chatId = msg.chat.id;
     bot.sendMessage(chatId, scriptsInstructions);
@@ -57,7 +57,7 @@ bot.onText(/Show Executers/, (msg) => {
     bot.sendMessage(chatId, executersInstructions);
 });
 
-//Set up the hamburger menu
+//Set up btns
 bot.onText(/\/start/, (msg) => {
     const chatId = msg.chat.id;
     bot.sendMessage(
