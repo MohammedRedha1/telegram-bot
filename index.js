@@ -10,7 +10,7 @@ function createKeyboardMarkup() {
 }
 
 const scriptsInstructions =
-    "Available scripts:\n/VectroHub - Get vectro hub script.\n/RedzHub - Get Redz Hub script.\n/AnnyHub - Get Annie Hub script.\n/HohoHub - Get Hohu Hub script.\n/MtrietHub - Get Mtriet Hub script.\n/WazureHub - Get Wazure Hub script.";
+    "Available scripts:\n/VectroHub - Get vectro hub script.\n/RedzHub - Get Redz Hub script.\n/AnnieHub - Get Annie Hub script.\n/HohoHub - Get Hohu Hub script.\n/MtrietHub - Get Mtriet Hub script.\n/WazureHub - Get Wazure Hub script.";
 const executersInstructions =
     "Avaialble executers:\n/hydrogen\n/Delta\n/PunkTeam";
 
